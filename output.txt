@@ -1,764 +1,255 @@
 0
 0
 0
-Producer 140596652672768 tries to insert 156 at time 2
-Consumer 140596635887360 tries to consume at time 2
-Producer 140596652672768 produced 156
-Consumer 140596644280064 tries to consume at time 2
-slot 0: 156
+Consumer 140000419694336 tries to consume at time 0
+Consumer 140000369338112 tries to consume at time 0
+Consumer 140000318981888 tries to consume at time 0
+Producer 140000478443264 tries to insert 45 at time 0
+Producer 140000478443264 produced 45 at time 0
+slot 0: 45
 slot 1: -1
 slot 2: -1
 slot 3: -1
 slot 4: -1
 
-Producer 140596652672768 successful at time 2, wait time 0
-
-Producer 140596652672768 tries to insert 270 at time 2
-Producer 140596652672768 produced 270
-slot 0: 156
-slot 1: 270
-slot 2: -1
-slot 3: -1
-slot 4: -1
-
-Producer 140596652672768 successful at time 2, wait time 0
-
-Producer 140596652672768 tries to insert 373 at time 2
-Producer 140596652672768 produced 373
-slot 0: 156
-slot 1: 270
-slot 2: 373
-slot 3: -1
-slot 4: -1
-
-Consumer 140596644280064 consumed 156
-slot 0: -1
-slot 1: 270
-Producer 140596652672768 successful at time 3, wait time 1
-
-slot 2: 373
-slot 3: -1
-slot 4: -1
-
-Consumer 140596644280064 successful at time 5, wait time 3
-
-Consumer 140596644280064 tries to consume at time 2
-Consumer 140596644280064 consumed 270
-slot 0: -1
-slot 1: -1
-slot 2: 373
-slot 3: -1
-slot 4: -1
-
-Consumer 140596644280064 successful at time 2, wait time 0
-
-Consumer 140596635887360 consumed 373
+Consumer 140000419694336 consumed 45 at time 1
 slot 0: -1
 slot 1: -1
 slot 2: -1
 slot 3: -1
 slot 4: -1
 
-Consumer 140596635887360 successful at time 7, wait time 5
-
-Producer 140596661065472 tries to insert 868 at time 3
-Producer 140596661065472 produced 868
+Consumer 140000428087040 tries to consume at time 2
+Consumer 140000411301632 tries to consume at time 2
+Consumer 140000302196480 tries to consume at time 2
+Producer 140000478443264 tries to insert 397 at time 2
+Consumer 140000436479744 tries to consume at time 2
+Producer 140000470050560 tries to insert 724 at time 2
+Producer 140000478443264 produced 397 at time 2
 slot 0: -1
-slot 1: -1
-slot 2: -1
-slot 3: 868
-slot 4: -1
-
-Producer 140596661065472 successful at time 3, wait time 0
-
-Consumer 140596635887360 tries to consume at time 3
-Consumer 140596635887360 consumed 868
-slot 0: -1
-slot 1: -1
+slot 1: 397
 slot 2: -1
 slot 3: -1
 slot 4: -1
 
-Consumer 140596635887360 successful at time 3, wait time 0
-
-Producer 140596677850880 tries to insert 202 at time 4
-Producer 140596677850880 produced 202
+Producer 140000478443264 tries to insert 184 at time 3
+Producer 140000470050560 produced 724 at time 3
 slot 0: -1
-Producer 140596686243584 tries to insert 58 at time 4
-slot 1: -1
-slot 2: -1
-slot 3: -1
-slot 4: 202
-
-Producer 140596669458176 tries to insert 337 at time 4
-Producer 140596669458176 produced 337
-slot 0: 337
-slot 1: -1
-slot 2: -1
-slot 3: -1
-slot 4: 202
-
-Producer 140596677850880 successful at time 5, wait time 1
-
-Producer 140596686243584 produced 58
-slot 0: 337
-slot 1: 58
-slot 2: -1
-slot 3: -1
-slot 4: 202
-
-Producer 140596686243584 successful at time 5, wait time 1
-
-Producer 140596669458176 successful at time 4, wait time 0
-
-Consumer 140596627494656 tries to consume at time 4
-Consumer 140596627494656 consumed 202
-slot 0: 337
-slot 1: 58
-slot 2: -1
+slot 1: 397
+slot 2: 724
 slot 3: -1
 slot 4: -1
 
-Consumer 140596627494656 successful at time 4, wait time 0
-
-Consumer 140596619101952 tries to consume at time 4
-Consumer 140596619101952 consumed 337
+Producer 140000478443264 produced 184 at time 4
 slot 0: -1
-slot 1: 58
-slot 2: -1
-slot 3: -1
+slot 1: 397
+slot 2: 724
+slot 3: 184
 slot 4: -1
 
-Consumer 140596619101952 successful at time 4, wait time 0
+Consumer 140000369338112 consumed 397 at time 5
+slot 0: -1
+slot 1: -1
+slot 2: 724
+slot 3: 184
+slot 4: -1
 
-Consumer 140596610709248 tries to consume at time 4
-Consumer 140596610709248 consumed 58
+Consumer 140000369338112 tries to consume at time 6
+Consumer 140000318981888 consumed 724 at time 6
+slot 0: -1
+slot 1: -1
+slot 2: -1
+slot 3: 184
+slot 4: -1
+
+Consumer 140000360945408 tries to consume at time 5
+Consumer 140000428087040 consumed 184 at time 7
 slot 0: -1
 slot 1: -1
 slot 2: -1
 slot 3: -1
 slot 4: -1
 
-Consumer 140596610709248 successful at time 4, wait time 0
-
-Consumer 140596610709248 tries to consume at time 4
-Consumer 140596644280064 tries to consume at time 4
-Consumer 140596627494656 tries to consume at time 5
-Producer 140596677850880 tries to insert 538 at time 6
-Producer 140596669458176 tries to insert 419 at time 6
-Producer 140596686243584 tries to insert 137 at time 6
-Producer 140596677850880 produced 538
-slot 0: -1
-slot 1: -1
-slot 2: 538
-slot 3: -1
-slot 4: -1
-
-Producer 140596677850880 successful at time 6, wait time 0
-
-Producer 140596686243584 produced 137
-slot 0: -1
-slot 1: -1
-slot 2: 538
-slot 3: 137
-slot 4: -1
-
-Consumer 140596610709248 consumed 538
-slot 0: -1
-slot 1: -1
-slot 2: -1
-slot 3: 137
-slot 4: -1
-
-Consumer 140596610709248 successful at time 6, wait time 2
-
-Producer 140596686243584 successful at time 7, wait time 1
-
-Producer 140596669458176 produced 419
-slot 0: -1
-slot 1: -1
-slot 2: -1
-slot 3: 137
-slot 4: 419
-
-Consumer 140596644280064 consumed 137
+Consumer 140000344160000 tries to consume at time 5
+Consumer 140000335767296 tries to consume at time 5
+Consumer 140000327374592 tries to consume at time 5
+Consumer 140000310589184 tries to consume at time 8
+Producer 140000461657856 tries to insert 515 at time 8
+Producer 140000461657856 produced 515 at time 8
 slot 0: -1
 slot 1: -1
 slot 2: -1
 slot 3: -1
-slot 4: 419
+slot 4: 515
 
-Producer 140596669458176 successful at time 10, wait time 4
-
-Consumer 140596644280064 successful at time 8, wait time 4
-
-Consumer 140596627494656 consumed 419
+Consumer 140000394516224 tries to consume at time 9
+Consumer 140000394516224 consumed 515 at time 9
 slot 0: -1
 slot 1: -1
 slot 2: -1
 slot 3: -1
 slot 4: -1
+Consumer 140000377730816 tries to consume at time 9
+Consumer 140000402908928 tries to consume at time 9
 
-Consumer 140596627494656 successful at time 10, wait time 5
-
-Consumer 140596627494656 tries to consume at time 5
-Producer 140596652672768 tries to insert 673 at time 6
-Producer 140596652672768 produced 673
-slot 0: 673
+Producer 140000470050560 tries to insert 553 at time 9
+Consumer 140000394516224 tries to consume at time 10
+Producer 140000470050560 produced 553 at time 10
+slot 0: 553
 slot 1: -1
+slot 2: -1
+Consumer 140000386123520 tries to consume at time 9
+slot 3: -1
+slot 4: -1
+
+Consumer 140000428087040 tries to consume at time 11
+Consumer 140000302196480 consumed 553 at time 11
+slot 0: -1
+slot 1: -1
+Consumer 140000318981888 tries to consume at time 11
 slot 2: -1
 slot 3: -1
 slot 4: -1
 
-Producer 140596652672768 successful at time 6, wait time 0
-
-Producer 140596652672768 tries to insert 80 at time 6
-Producer 140596652672768 produced 80
-slot 0: 673
-slot 1: 80
+Consumer 140000302196480 tries to consume at time 12
+Producer 140000486835968 tries to insert 396 at time 12
+Consumer 140000444872448 tries to consume at time 12
+Producer 140000486835968 produced 396 at time 12
+slot 0: -1
+slot 1: 396
 slot 2: -1
 slot 3: -1
 slot 4: -1
 
-Producer 140596652672768 successful at time 6, wait time 0
-
-Consumer 140596627494656 consumed 673
+Producer 140000486835968 tries to insert 320 at time 13
+Producer 140000486835968 produced 320 at time 13
 slot 0: -1
-slot 1: 80
+slot 1: 396
+slot 2: 320
+slot 3: -1
+slot 4: -1
+
+Consumer 140000352552704 tries to consume at time 14
+Consumer 140000352552704 consumed 396 at time 14
+slot 0: -1
+slot 1: -1
+slot 2: 320
+slot 3: -1
+slot 4: -1
+
+Consumer 140000436479744 consumed 320 at time 15
+slot 0: -1
+slot 1: -1
+Consumer 140000419694336 tries to consume at time 15
 slot 2: -1
 slot 3: -1
 slot 4: -1
 
-Consumer 140596627494656 successful at time 7, wait time 2
-
-Producer 140596661065472 tries to insert 143 at time 7
-Producer 140596661065472 produced 143
-slot 0: -1
-slot 1: 80
-slot 2: 143
-slot 3: -1
-slot 4: -1
-
-Producer 140596661065472 successful at time 7, wait time 0
-
-Consumer 140596619101952 tries to consume at time 7
-Consumer 140596619101952 consumed 80
+Producer 140000461657856 tries to insert 79 at time 15
+Producer 140000453265152 tries to insert 284 at time 12
+Producer 140000453265152 produced 284 at time 16
 slot 0: -1
 slot 1: -1
-slot 2: 143
-slot 3: -1
+Consumer 140000293803776 tries to consume at time 16
+Producer 140000478443264 tries to insert 151 at time 16
+Consumer 140000285411072 tries to consume at time 16
+slot 2: -1
+slot 3: 284
 slot 4: -1
 
-Consumer 140596619101952 successful at time 8, wait time 1
-
-Producer 140596677850880 tries to insert 420 at time 7
-Producer 140596677850880 produced 420
-slot 0: -1
-slot 1: -1
-slot 2: 143
-slot 3: 420
-slot 4: -1
-
-Producer 140596677850880 successful at time 7, wait time 0
-
-Consumer 140596635887360 tries to consume at time 7
-Consumer 140596635887360 consumed 143
+Producer 140000461657856 produced 79 at time 17
 slot 0: -1
 slot 1: -1
 slot 2: -1
-slot 3: 420
-slot 4: -1
+slot 3: 284
+slot 4: 79
 
-Consumer 140596635887360 successful at time 7, wait time 0
-
-Consumer 140596635887360 tries to consume at time 7
-Consumer 140596635887360 consumed 420
-slot 0: -1
+Producer 140000470050560 tries to insert 691 at time 18
+Producer 140000470050560 produced 691 at time 18
+Producer 140000461657856 tries to insert 879 at time 18
+slot 0: 691
 slot 1: -1
+slot 2: -1
+slot 3: 284
+slot 4: 79
+
+Producer 140000470050560 tries to insert 903 at time 19
+Consumer 140000335767296 consumed 284 at time 19
+slot 0: 691
+slot 1: -1
+slot 2: -1
+slot 3: -1
+slot 4: 79
+
+Producer 140000470050560 produced 903 at time 20
+slot 0: 691
+slot 1: 903
+slot 2: -1
+slot 3: -1
+slot 4: 79
+
+Consumer 140000327374592 consumed 79 at time 21
+slot 0: 691
+slot 1: 903
 slot 2: -1
 slot 3: -1
 slot 4: -1
 
-Consumer 140596635887360 successful at time 7, wait time 0
+Producer 140000461657856 produced 879 at time 22
+slot 0: 691
+slot 1: 903
+slot 2: 879
+slot 3: -1
+slot 4: -1
 
-Producer 140596661065472 tries to insert 347 at time 8
-Producer 140596661065472 produced 347
+Consumer 140000344160000 consumed 691 at time 23
+slot 0: -1
+slot 1: 903
+slot 2: 879
+slot 3: -1
+slot 4: -1
+
+Consumer 140000344160000 tries to consume at time 24
+Consumer 140000344160000 consumed 903 at time 24
 slot 0: -1
 slot 1: -1
-slot 2: -1
+slot 2: 879
 slot 3: -1
-slot 4: 347
+slot 4: -1
 
-Producer 140596661065472 successful at time 8, wait time 0
-
-Consumer 140596644280064 tries to consume at time 6
-Consumer 140596644280064 consumed 347
+Consumer 140000360945408 consumed 879 at time 25
 slot 0: -1
 slot 1: -1
 slot 2: -1
 slot 3: -1
 slot 4: -1
 
-Consumer 140596644280064 successful at time 6, wait time 0
-
-Producer 140596652672768 tries to insert 684 at time 8
-Producer 140596652672768 produced 684
-slot 0: 684
+Consumer 140000360945408 tries to consume at time 26
+Producer 140000478443264 produced 151 at time 26
+slot 0: -1
 slot 1: -1
 slot 2: -1
-slot 3: -1
+slot 3: 151
 slot 4: -1
 
-Producer 140596652672768 successful at time 8, wait time 0
-
-Producer 140596652672768 tries to insert 746 at time 8
-Producer 140596652672768 produced 746
-slot 0: 684
-slot 1: 746
-slot 2: -1
-slot 3: -1
-slot 4: -1
-
-Producer 140596652672768 successful at time 8, wait time 0
-
-Consumer 140596627494656 tries to consume at time 7
-Consumer 140596627494656 consumed 684
-slot 0: -1
-slot 1: 746
-slot 2: -1
-slot 3: -1
-slot 4: -1
-
-Consumer 140596627494656 successful at time 7, wait time 0
-
-Consumer 140596635887360 tries to consume at time 8
-Consumer 140596635887360 consumed 746
+Consumer 140000411301632 consumed 151 at time 27
 slot 0: -1
 slot 1: -1
 slot 2: -1
 slot 3: -1
 slot 4: -1
 
-Consumer 140596635887360 successful at time 8, wait time 0
-
-Producer 140596686243584 tries to insert 570 at time 9
-Producer 140596686243584 produced 570
+Producer 140000486835968 tries to insert 106 at time 28
+Producer 140000486835968 produced 106 at time 28
 slot 0: -1
-slot 1: -1
-slot 2: 570
-slot 3: -1
-slot 4: -1
-
-Producer 140596686243584 successful at time 9, wait time 0
-
-Producer 140596661065472 tries to insert 731 at time 9
-Producer 140596661065472 produced 731
-Producer 140596669458176 tries to insert 707 at time 9
-Consumer 140596610709248 tries to consume at time 7
-slot 0: -1
-slot 1: -1
-slot 2: 570
-slot 3: 731
-slot 4: -1
-
-Producer 140596661065472 successful at time 9, wait time 0
-
-Producer 140596661065472 tries to insert 892 at time 9
-Producer 140596661065472 produced 892
-slot 0: -1
-slot 1: -1
-slot 2: 570
-slot 3: 731
-slot 4: 892
-
-Producer 140596661065472 successful at time 9, wait time 0
-
-Producer 140596669458176 produced 707
-slot 0: 707
-slot 1: -1
-slot 2: 570
-slot 3: 731
-slot 4: 892
-
-Consumer 140596644280064 tries to consume at time 7
-Producer 140596669458176 successful at time 10, wait time 1
-
-Consumer 140596644280064 consumed 570
-slot 0: 707
-slot 1: -1
-slot 2: -1
-slot 3: 731
-slot 4: 892
-
-Consumer 140596644280064 successful at time 7, wait time 0
-
-Consumer 140596644280064 tries to consume at time 7
-Consumer 140596610709248 consumed 731
-slot 0: 707
 slot 1: -1
 slot 2: -1
 slot 3: -1
-slot 4: 892
+slot 4: 106
 
-Consumer 140596610709248 successful at time 11, wait time 4
-
-Consumer 140596610709248 tries to consume at time 7
-Consumer 140596610709248 consumed 892
-slot 0: 707
-slot 1: -1
-slot 2: -1
-slot 3: -1
-slot 4: -1
-
-Consumer 140596610709248 successful at time 7, wait time 0
-
-Consumer 140596610709248 tries to consume at time 7
-Consumer 140596644280064 consumed 707
+Consumer 140000377730816 consumed 106 at time 29
 slot 0: -1
 slot 1: -1
 slot 2: -1
 slot 3: -1
 slot 4: -1
-
-Consumer 140596644280064 successful at time 8, wait time 1
-
-Producer 140596652672768 tries to insert 436 at time 9
-Producer 140596652672768 produced 436
-slot 0: -1
-slot 1: 436
-slot 2: -1
-slot 3: -1
-slot 4: -1
-
-Producer 140596652672768 successful at time 9, wait time 0
-
-Consumer 140596610709248 consumed 436
-slot 0: -1
-slot 1: -1
-slot 2: -1
-slot 3: -1
-slot 4: -1
-
-Consumer 140596610709248 successful at time 9, wait time 2
-
-Consumer 140596619101952 tries to consume at time 11
-Producer 140596677850880 tries to insert 269 at time 11
-Producer 140596677850880 produced 269
-slot 0: -1
-slot 1: -1
-slot 2: 269
-slot 3: -1
-slot 4: -1
-
-Producer 140596677850880 successful at time 11, wait time 0
-
-Consumer 140596619101952 consumed 269
-slot 0: -1
-slot 1: -1
-slot 2: -1
-slot 3: -1
-slot 4: -1
-
-Consumer 140596619101952 successful at time 12, wait time 1
-
-Producer 140596661065472 tries to insert 380 at time 11
-Producer 140596661065472 produced 380
-slot 0: -1
-slot 1: -1
-slot 2: -1
-slot 3: 380
-slot 4: -1
-
-Producer 140596661065472 successful at time 11, wait time 0
-
-Consumer 140596635887360 tries to consume at time 11
-Consumer 140596635887360 consumed 380
-slot 0: -1
-slot 1: -1
-slot 2: -1
-slot 3: -1
-slot 4: -1
-
-Consumer 140596635887360 successful at time 11, wait time 0
-
-Consumer 140596635887360 tries to consume at time 11
-Consumer 140596627494656 tries to consume at time 10
-Consumer 140596644280064 tries to consume at time 9
-Producer 140596669458176 tries to insert 270 at time 12
-Producer 140596669458176 produced 270
-slot 0: -1
-slot 1: -1
-slot 2: -1
-slot 3: -1
-slot 4: 270
-
-Producer 140596669458176 successful at time 12, wait time 0
-
-Consumer 140596635887360 consumed 270
-slot 0: -1
-slot 1: -1
-slot 2: -1
-slot 3: -1
-slot 4: -1
-
-Consumer 140596635887360 successful at time 12, wait time 1
-
-Producer 140596652672768 tries to insert 219 at time 12
-Producer 140596652672768 produced 219
-slot 0: 219
-slot 1: -1
-slot 2: -1
-slot 3: -1
-slot 4: -1
-
-Producer 140596652672768 successful at time 12, wait time 0
-
-Consumer 140596627494656 consumed 219
-slot 0: -1
-slot 1: -1
-slot 2: -1
-slot 3: -1
-slot 4: -1
-
-Consumer 140596627494656 successful at time 13, wait time 3
-
-Producer 140596686243584 tries to insert 655 at time 13
-Producer 140596686243584 produced 655
-slot 0: -1
-slot 1: 655
-slot 2: -1
-slot 3: -1
-slot 4: -1
-
-Producer 140596686243584 successful at time 13, wait time 0
-
-Producer 140596686243584 tries to insert 677 at time 13
-Producer 140596686243584 produced 677
-slot 0: -1
-slot 1: 655
-slot 2: 677
-slot 3: -1
-slot 4: -1
-
-Producer 140596686243584 successful at time 13, wait time 0
-
-Consumer 140596644280064 consumed 655
-slot 0: -1
-slot 1: -1
-slot 2: 677
-slot 3: -1
-slot 4: -1
-
-Consumer 140596644280064 successful at time 15, wait time 6
-
-Consumer 140596610709248 tries to consume at time 11
-Consumer 140596610709248 consumed 677
-slot 0: -1
-slot 1: -1
-slot 2: -1
-slot 3: -1
-slot 4: -1
-
-Consumer 140596610709248 successful at time 11, wait time 0
-
-Consumer 140596619101952 tries to consume at time 14
-Producer 140596677850880 tries to insert 697 at time 15
-Producer 140596677850880 produced 697
-slot 0: -1
-slot 1: -1
-slot 2: -1
-slot 3: 697
-slot 4: -1
-
-Producer 140596677850880 successful at time 15, wait time 0
-
-Consumer 140596619101952 consumed 697
-slot 0: -1
-slot 1: -1
-slot 2: -1
-slot 3: -1
-slot 4: -1
-
-Consumer 140596619101952 successful at time 15, wait time 1
-
-Producer 140596661065472 tries to insert 326 at time 15
-Producer 140596661065472 produced 326
-slot 0: -1
-slot 1: -1
-slot 2: -1
-slot 3: -1
-slot 4: 326
-
-Producer 140596661065472 successful at time 15, wait time 0
-
-Consumer 140596635887360 tries to consume at time 14
-Consumer 140596635887360 consumed 326
-slot 0: -1
-slot 1: -1
-slot 2: -1
-slot 3: -1
-slot 4: -1
-
-Consumer 140596635887360 successful at time 14, wait time 0
-
-Consumer 140596619101952 tries to consume at time 15
-Producer 140596669458176 tries to insert 101 at time 16
-Producer 140596669458176 produced 101
-Producer 140596661065472 tries to insert 719 at time 16
-slot 0: 101
-slot 1: -1
-slot 2: -1
-slot 3: -1
-slot 4: -1
-
-Producer 140596661065472 produced 719
-Producer 140596652672768 tries to insert 189 at time 16
-Producer 140596669458176 successful at time 17, wait time 1
-
-Consumer 140596610709248 tries to consume at time 14
-Consumer 140596627494656 tries to consume at time 14
-slot 0: 101
-slot 1: 719
-slot 2: -1
-slot 3: -1
-slot 4: -1
-
-Producer 140596661065472 successful at time 17, wait time 1
-
-Producer 140596661065472 tries to insert 271 at time 16
-Producer 140596661065472 produced 271
-slot 0: 101
-slot 1: 719
-slot 2: 271
-slot 3: -1
-slot 4: -1
-
-Producer 140596661065472 successful at time 16, wait time 0
-
-Consumer 140596619101952 consumed 101
-slot 0: -1
-slot 1: 719
-slot 2: 271
-slot 3: -1
-slot 4: -1
-
-Producer 140596652672768 produced 189
-slot 0: -1
-slot 1: 719
-slot 2: 271
-slot 3: 189
-slot 4: -1
-Consumer 140596619101952 successful at time 19, wait time 4
-
-
-Producer 140596652672768 successful at time 18, wait time 2
-
-Consumer 140596627494656 consumed 719
-slot 0: -1
-slot 1: -1
-slot 2: 271
-slot 3: 189
-slot 4: -1
-
-Consumer 140596627494656 successful at time 17, wait time 3
-
-Consumer 140596610709248 consumed 271
-slot 0: -1
-slot 1: -1
-slot 2: -1
-slot 3: 189
-slot 4: -1
-
-Consumer 140596610709248 successful at time 18, wait time 4
-
-Producer 140596686243584 tries to insert 812 at time 17
-Producer 140596686243584 produced 812
-slot 0: -1
-slot 1: -1
-slot 2: -1
-slot 3: 189
-slot 4: 812
-
-Producer 140596686243584 successful at time 17, wait time 0
-
-Consumer 140596644280064 tries to consume at time 13
-Consumer 140596644280064 consumed 189
-slot 0: -1
-slot 1: -1
-slot 2: -1
-slot 3: -1
-slot 4: 812
-
-Consumer 140596644280064 successful at time 13, wait time 0
-
-Producer 140596652672768 tries to insert 81 at time 17
-Producer 140596652672768 produced 81
-slot 0: 81
-slot 1: -1
-slot 2: -1
-slot 3: -1
-slot 4: 812
-
-Producer 140596652672768 successful at time 17, wait time 0
-
-Consumer 140596644280064 tries to consume at time 14
-Consumer 140596644280064 consumed 812
-slot 0: 81
-slot 1: -1
-Producer 140596677850880 tries to insert 673 at time 18
-slot 2: -1
-slot 3: -1
-slot 4: -1
-
-Consumer 140596644280064 successful at time 14, wait time 0
-
-Producer 140596677850880 produced 673
-slot 0: 81
-slot 1: 673
-slot 2: -1
-slot 3: -1
-slot 4: -1
-
-Producer 140596677850880 successful at time 19, wait time 1
-
-Consumer 140596619101952 tries to consume at time 17
-Consumer 140596619101952 consumed 81
-slot 0: -1
-slot 1: 673
-slot 2: -1
-slot 3: -1
-slot 4: -1
-
-Consumer 140596619101952 successful at time 17, wait time 0
-
-Consumer 140596610709248 tries to consume at time 16
-Consumer 140596610709248 consumed 673
-slot 0: -1
-slot 1: -1
-slot 2: -1
-slot 3: -1
-slot 4: -1
-
-Consumer 140596610709248 successful at time 16, wait time 0
-
-Consumer 140596610709248 tries to consume at time 16
-Consumer 140596635887360 tries to consume at time 18
-Producer 140596669458176 tries to insert 463 at time 19
-Producer 140596669458176 produced 463
-slot 0: -1
-slot 1: -1
-slot 2: 463
-slot 3: -1
-slot 4: -1
-
-Producer 140596669458176 successful at time 19, wait time 0
-
-Consumer 140596610709248 consumed 463
-slot 0: -1
-slot 1: -1
-slot 2: -1
-slot 3: -1
-slot 4: -1
-
-Consumer 140596610709248 successful at time 17, wait time 1
-

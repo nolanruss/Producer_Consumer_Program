@@ -57,14 +57,15 @@ int insert_item(int item)
 	/* Insert item into the buffer */
 	buffer[insertPointer] = item;
 	insertPointer = (insertPointer + 1)%BUFFER_SIZE;
-	buffer_time += 1;
 	
 	/* Print results. */
-	printf("Producer %lu produced %d\n", pthread_self(), item);
+	printf("Producer %lu produced %d at time %d\n", pthread_self(), item, buffer_time);
 	if(print_buffer()){
 		printf("Buffer print fail.");
 	}
 	
+	buffer_time += 1; // Increment the time.
+
 	/* Release the mutex lock. */
 	pthread_mutex_unlock(&mutex);
 
@@ -87,14 +88,15 @@ int remove_item()
 	temp = buffer[removePointer];
 	buffer[removePointer] = -1;
 	removePointer = (removePointer + 1)%BUFFER_SIZE;
-	buffer_time += 1;
 	
 	/* Print results. */
-	printf("Consumer %lu consumed %d\n", pthread_self(), temp);
+	printf("Consumer %lu consumed %d at time %d\n", pthread_self(), temp, buffer_time);
 	if(print_buffer()){
 		printf("Buffer print fail.");
 	}
 	
+	buffer_time += 1; // Increment the time.
+
 	/* Release the mutex lock. */
 	pthread_mutex_unlock(&mutex);
 
@@ -158,22 +160,18 @@ void *producer(void *param)
 
 	int current_time=0;
 	int tBuffer_time=buffer_time;
-	int buffer_time_diff;
+
 	while(TRUE)
 	{
 		r = rand() % MAX_SLEEP;
 		sleep(r);
 		random = myRand();
-		current_time+=r;
+
+		printf("Producer %lu tries to insert %d at time %d\n", pthread_self(), random, buffer_time); 
 		tBuffer_time = buffer_time;
 
-		printf("Producer %lu tries to insert %d at time %d\n", pthread_self(), random, current_time); 
 		if(insert_item(random))
 			fprintf(stderr, "Error");
-		else{
-			buffer_time_diff = (buffer_time - 1) - tBuffer_time;
-			printf("Producer %lu successful at time %d, wait time %d\n\n", pthread_self(), (current_time + buffer_time_diff), buffer_time_diff); 
-		}
 	}
 }
 
@@ -182,21 +180,16 @@ void *consumer(void *param)
 	int r;
 	int current_time=0;
 	int tBuffer_time=buffer_time;
-	int buffer_time_diff;
+
 	while(TRUE)
 	{
 		r = rand() % MAX_SLEEP;
 		sleep(r);
-		current_time+=r;
-		tBuffer_time = buffer_time;
 		
-		printf("Consumer %lu tries to consume at time %d\n", pthread_self(), current_time); 
+		printf("Consumer %lu tries to consume at time %d\n", pthread_self(), buffer_time); 
+		tBuffer_time = buffer_time;
 
 		if(remove_item())
 			fprintf(stderr, "Error Consuming");
-		else{
-			buffer_time_diff = (buffer_time - 1) - tBuffer_time;
-			printf("Consumer %lu successful at time %d, wait time %d\n\n", pthread_self(), (current_time + buffer_time_diff), buffer_time_diff); 
-		}
 	}
 }
