@@ -53,7 +53,7 @@ int insert_item(int item)
 
 	/* Acquire the mutex lock. */
 	pthread_mutex_lock(&mutex);
-
+	
 	/* Insert item into the buffer */
 	buffer[insertPointer] = item;
 	insertPointer = (insertPointer + 1)%BUFFER_SIZE;
@@ -158,9 +158,6 @@ void *producer(void *param)
 	int random;
 	int r;
 
-	int current_time=0;
-	int tBuffer_time=buffer_time;
-
 	while(TRUE)
 	{
 		r = rand() % MAX_SLEEP;
@@ -168,7 +165,6 @@ void *producer(void *param)
 		random = myRand();
 
 		printf("Producer %lu tries to insert %d at time %d\n", pthread_self(), random, buffer_time); 
-		tBuffer_time = buffer_time;
 
 		if(insert_item(random))
 			fprintf(stderr, "Error");
@@ -178,8 +174,6 @@ void *producer(void *param)
 void *consumer(void *param)
 {
 	int r;
-	int current_time=0;
-	int tBuffer_time=buffer_time;
 
 	while(TRUE)
 	{
@@ -187,7 +181,6 @@ void *consumer(void *param)
 		sleep(r);
 		
 		printf("Consumer %lu tries to consume at time %d\n", pthread_self(), buffer_time); 
-		tBuffer_time = buffer_time;
 
 		if(remove_item())
 			fprintf(stderr, "Error Consuming");

@@ -8,7 +8,7 @@ GROUP
 	Jarrett Dixon
 
 CONTRIBUTIONS
-
+	Developed as group.
 
 DESCRIPTION
 	A course assignment which implements semaphores and a mutex lock to
